@@ -36,7 +36,8 @@ def entrar_valores(event):
 
     todos_valores = todos_valores + str(event)
     print(todos_valores[-1])
-
+    
+    #trabalhando pra não deixar os operadores aritméticos repitirem na equação e/ou então substituir o atual
     #if (todos_valores[-1] == "+"):
         #if (event == "+"):
             #todos_valores = todos_valores[:-1]
